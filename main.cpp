@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    float a,b;
+	 float a,b;
     int opzione;
     cin>>a>>b>>opzione;
     switch(opzione){
@@ -10,13 +10,13 @@ int main() {
             cout<<(a*b)/2;
             break;
         case 1:
-            cout<<(a*a);
+            cout<<a*a;
             break;
         case 2:
-            cout<<(a*b);
+            cout<<a*b;
             break;
         default:
             cout<<"opzione non valida";
-    }
-    return 0;
+	}
+   return 0;
 }
